@@ -1,7 +1,12 @@
-var Str = require;
+var $ = require('jquery');
+var str = require('./constant');
+require('./less');
 
 var App = function() {
-    console.log('App: init');
+    $('body').html('');
 };
 
 var app = new App();
+app.get = function () {
+
+};
